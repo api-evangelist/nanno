@@ -1,7 +1,29 @@
 aid: nanno
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nanno.png
 name: Nanno
-description: Nanno is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nanno was an on-demand babysitting and childcare marketplace startup, founded
+  in 2016 and based in Denver, Colorado, that connected parents with vetted,
+  background-checked sitters through a consumer mobile app (a "childcare on
+  demand" model). Backed by 500 Global among others, the company paused
+  operations at the end of 2021 amid pandemic-driven labor and childcare-market
+  disruption, and its technology and assets were acquired by household-management
+  startup Call Emmy in May 2022. The Nanno corporate entity persists but no
+  longer operates its platform; nanno.com no longer serves a live site. Nanno
+  was a consumer app and never published a public developer API, SDKs, or
+  developer documentation. This profile is retained as a network stub for
+  historical/lineage purposes and carries no live API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/nanno/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Operations paused end of 2021; assets acquired by Call Emmy in May 2022. Consumer app, no public API.
+x-acquired-by: call-emmy
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Childcare
+- Babysitting
+- Marketplace
+- Consumer App
+- On-Demand
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,8 @@ maintainers:
 common:
 - type: Website
   url: https://nanno.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
