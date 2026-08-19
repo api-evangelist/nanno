@@ -34,7 +34,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: Operations paused end of 2021; assets acquired by Call Emmy in May 2022. Consumer app, no public API.
 x-acquired-by: call-emmy
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
